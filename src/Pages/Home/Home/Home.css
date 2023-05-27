@@ -1,0 +1,6 @@
+.bg-image{
+    background-image: url('../../../assets/Images/Home/bg-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
