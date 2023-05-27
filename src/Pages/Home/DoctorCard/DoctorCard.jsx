@@ -3,8 +3,9 @@ import '@smastrom/react-rating/style.css'
 import { GoLocation } from 'react-icons/go';
 import { MdOutlineEventAvailable } from 'react-icons/md';
 import { AiOutlineDollar } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
-const DoctorCard = ({doctor}) => {
+const DoctorCard = ({ doctor }) => {
 
     return (
         <div>
@@ -32,7 +33,10 @@ const DoctorCard = ({doctor}) => {
                         <p>{doctor.fee}</p>
                     </div>
                     <div className="w-full mt-4">
-                        <button className="btn btn-error w-full text-white">View Profile</button>
+                        <Link to={`/profile/${doctor?._id}`}>
+                            <button className="btn btn-error w-full text-white">View Profile</button>
+                        </Link>
+
                     </div>
                 </div>
             </div>
