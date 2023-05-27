@@ -1,16 +1,17 @@
+import { Link } from 'react-router-dom';
 import login from '../../../../assets/Images/Home/login.png'
 
 const Login = () => {
     return (
         <div>
-            <div className="bg-[#E6E6E6] w-[90%] mx-auto my-12 rounded-lg p-7">
+            <div className="bg-[#E6E6E6] rounded-lg p-7">
                 <div className="flex flex-col items-center lg:flex-row gap-10">
-                    <div className="text-center w-[50%] lg:text-left bg-[#07332F] ">
+                    <div className="text-center w-full lg:w-[50%] lg:text-left bg-[#07332F] ">
                         <img className='w-full' src={login} alt="login" />
                     </div>
-                    <div className="w-[50%] bg-white p-8 rounded-lg">
+                    <div className=" w-full lg:w-[50%] bg-white p-8 rounded-lg">
                         <div className="form-control">
-                            <h1 className="text-4xl font-semibold text-center my-5">Sign in to Doc House</h1>
+                            <h1 className="text-4xl font-bold text-center my-5">Sign in to Doc House</h1>
                             <label className="label">
                                 <span className="label-text font-bold">Username or Email Address</span>
                             </label>
@@ -29,6 +30,7 @@ const Login = () => {
                         <div className="form-control mt-6">
                             <button className="btn btn-error text-white">Login</button>
                         </div>
+                        <div className='mt-3 text-center'>Please register at first . Go to <Link to='/register' className='text-red-400 font-semibold underline'>SIGN UP</Link> </div>
                     </div>
                 </div>
             </div>
