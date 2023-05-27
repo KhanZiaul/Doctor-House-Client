@@ -5,13 +5,15 @@ import ClientReview from "../ClientReview/ClientReview";
 import { Rating } from '@smastrom/react-rating'
 import '@smastrom/react-rating/style.css'
 import { GoLocation } from 'react-icons/go';
-
+import SharedBanner from "../../Shared/SharedBanner/SharedBanner";
 
 const DoctorProfile = () => {
     const doctor = useLoaderData()
     const { doctor_name, image, about_me, specialist_in, ratings, location, business_hour, education, works_and_experience, awards, specializations, services, reviews } = doctor
     return (
         <div className="bg-[#F3F3F3]">
+            <SharedBanner title={'Doctor Profile'} subTitle={'Doctor'}></SharedBanner>
+
             <div className="w-[90%] h-[300px] flex flex-col lg:flex-row p-5 mx-auto gap-10 bg-white rounded-lg">
                 <img className="rounded-lg" src={image} alt="" />
                 <div className="space-y-4">

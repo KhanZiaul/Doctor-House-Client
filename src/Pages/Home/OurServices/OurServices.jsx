@@ -8,7 +8,7 @@ const OurServices = () => {
     const [services, setServices] = useState([])
 
     useEffect(() => {
-        fetch('services.json')
+        fetch('http://localhost:8000/services')
             .then(res => res.json())
             .then(datas => setServices(datas))
     }, [])
@@ -28,11 +28,9 @@ const OurServices = () => {
                         <Tabs>
                             <TabList className='mb-10 flex flex-col lg:flex-row gap-10'>
                                 {
-                                    services?.map((service, index) => {
+                                    services?.map(service => {
                                         return (
-                                            <>
-                                                <Tab key={index} className='btn btn-error text-white'>{service.name}</Tab>
-                                            </>
+                                            <Tab key={service._id} className='btn btn-error text-white'>{service.name}</Tab>
                                         )
                                     })
                                 }
@@ -40,14 +38,14 @@ const OurServices = () => {
                             {
                                 services?.map((service, index) => {
                                     return (
-                                        <>
+                                      
                                             <TabPanel key={index}>
                                                 <img className='h-[330px] w-[560px] rounded-md' src={service.image} alt="" />
                                                 <h2 className='my-3 font-bold text-3xl text-justify'>{service.name}</h2>
-                                                <h2>{service.description.slice(0,900)}.......</h2>
+                                                <h2>{service.description.slice(0, 900)}.......</h2>
                                                 <button className='border-2 border-red-400 font-semibold px-5 py-2 rounded-lg hover:text-white hover:bg-red-500 my-4'>More Details</button>
                                             </TabPanel>
-                                        </>
+                                        
                                     )
                                 })
                             }

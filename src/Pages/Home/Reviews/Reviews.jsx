@@ -12,7 +12,7 @@ import comma from '../../../assets/Images/Home/comma.png'
 const Reviews = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('reviews.json')
+        fetch('http://localhost:8000/reviews')
             .then(res => res.json())
             .then(datas => setReviews(datas))
     }, [])
