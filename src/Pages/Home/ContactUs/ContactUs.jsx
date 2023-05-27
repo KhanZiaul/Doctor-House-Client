@@ -4,7 +4,7 @@ import location from '../../../assets/Images/Home/location.png'
 const ContactUs = () => {
     return (
 
-        <div className=" p-5 bg-[#07332F] text-white">
+        <div className=" p-5 bg-[#07332F] text-white w-[90%] mx-auto rounded-lg">
             <div className="hero-content flex-col lg:flex-row">
                 <div className="text-center space-y-4 w-full lg:w-[50%] lg:text-left">
                     <h1 className="text-3xl lg:text-5xl font-bold">Contact With Us</h1>
