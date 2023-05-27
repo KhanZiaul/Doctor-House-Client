@@ -2,7 +2,7 @@
     {
         "doctor_name": "Dr. Michael Johnson",
         "id" : 1,
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "image": "https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
         "about_me": "I am a skilled and compassionate orthopedic surgeon dedicated to providing the highest quality of care to my patients. With extensive experience in orthopedic surgery, I specialize in joint replacements, sports injuries, and fracture management. My goal is to help my patients regain mobility and improve their quality of life.",
         "specialist_in": "Orthopedic Surgery",
         "ratings": 4.7,
@@ -137,7 +137,7 @@
     {
         "doctor_name": "Dr. John Smith",
         "id" : 3,
-        "image": "https://images.unsplash.com/photo-1637059824899-a441006a6875?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=452&q=80",
+        "image": "https://images.unsplash.com/photo-1614579093335-b6ab37ddaace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
         "about_me": "I am a dedicated and experienced doctor committed to providing the highest level of patient care. With years of practice, I specialize in diagnosing and treating a wide range of medical conditions. My goal is to help my patients lead healthy and fulfilling lives.",
         "specialist_in": "Cardiology",
         "ratings": 4.8,
