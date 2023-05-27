@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import ContactUs from "../ContactUs/ContactUs";
 import OurExpertDoctors from "../OurExpertDoctors/OurExpertDoctors";
 import OurServices from "../OurServices/OurServices";
 import Reviews from "../Reviews/Reviews";
@@ -12,6 +13,7 @@ const Home = () => {
             <ShortAboutUs></ShortAboutUs>
             <Reviews></Reviews>
             <OurExpertDoctors></OurExpertDoctors>
+            <ContactUs></ContactUs>
         </div>
     );
 };
