@@ -11,7 +11,7 @@ const Navigation = () => {
     </>
 
     return (
-        <div className="w-full lg:w-[83%] mx-auto">
+        <div className="w-full lg:w-[83%] mx-auto relative">
             <div className="navbar text-white z-20 opacity-75 absolute top-0 lg:top-5">
                 <div className="navbar-start">
 

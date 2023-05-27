@@ -3,7 +3,7 @@ import Navigation from '../Pages/Shared/Navigation/Navigation';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div >
             <Navigation></Navigation>
             <Outlet></Outlet>
         </div>
