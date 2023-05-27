@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Jenny Khatri",
+        "profession": "Engineer",
+        "image": "https://images.unsplash.com/photo-1617009762269-c062aaf6b3a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "review": "I had a great experience with Dr. House. He was very knowledgeable and took the time to listen to my concerns. His diagnosis was accurate, and his treatment plan was effective. I would highly recommend him to others."
+      },
+      {
+        "name": "Kreti Lara",
+        "profession": "Teacher",
+        "image": "https://images.unsplash.com/photo-1583397758920-86c1cb75b8fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
+        "review": "Dr. House is an exceptional doctor. He was thorough in his examination and explained my condition in a way that I could understand. He is caring and attentive, and I felt confident in his expertise. I'm grateful for his help."
+      },
+      {
+        "name": "David Johnson",
+        "profession": "Accountant",
+        "image": "https://images.unsplash.com/photo-1554126807-6b10f6f6692a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "review": "I had been struggling with a chronic illness for years, and Dr. House was finally able to provide me with a proper diagnosis. His dedication and determination to find the right treatment were remarkable. I appreciate his commitment to his patients."
+      },
+      {
+        "name": "Emily Williams",
+        "profession": "Writer",
+        "image": "https://images.unsplash.com/photo-1619296740635-5d0a8afcc221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "review": "Dr. House is an exceptional doctor who truly cares about his patients. His attention to detail and ability to think outside the box set him apart. He went above and beyond to ensure I received the best care possible. I'm incredibly grateful for his expertise."
+      },
+      {
+        "name": "Manta Chingi",
+        "profession": "Marketing Executive",
+        "image": "https://images.unsplash.com/photo-1618585183371-4fc30e7213e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=410&q=80",
+        "review": "I highly recommend Dr. House. He is a compassionate and knowledgeable doctor who takes the time to understand his patients' needs. His professionalism and expertise are evident in his approach. I'm thankful to have him as my doctor."
+      }
+]
