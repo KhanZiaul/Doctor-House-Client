@@ -4,6 +4,7 @@ import {
 import MainLayout from "../Layouts/MainLayout";
 import Home from "../Pages/Home/Home/Home";
 import DoctorProfile from "../Pages/Doctor/DoctorProfile/DoctorProfile";
+import Login from "../Pages/Home/RegisterLogin/Login/Login";
   
   const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ import DoctorProfile from "../Pages/Doctor/DoctorProfile/DoctorProfile";
             path:'/profile/:id',
             element:<DoctorProfile></DoctorProfile>,
             loader:({params}) => fetch(`http://localhost:8000/doctors/${params.id}`)
+        },
+        {
+            path:'/login',
+            element:<Login></Login>
         }
       ]
     },

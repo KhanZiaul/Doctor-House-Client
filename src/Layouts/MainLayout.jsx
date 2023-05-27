@@ -1,13 +1,17 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Navigation from '../Pages/Shared/Navigation/Navigation';
 import Footer from '../Pages/Shared/Footer/Footer';
 
 const MainLayout = () => {
+
+    const location = useLocation()
+    const ignorePage = location.pathname.includes('login') || location.pathname.includes('register')
+
     return (
         <div >
-            <Navigation></Navigation>
+            {ignorePage || <Navigation></Navigation>}
             <Outlet></Outlet>
-            <Footer></Footer>
+            {ignorePage || <Footer></Footer>}
         </div>
     );
 };

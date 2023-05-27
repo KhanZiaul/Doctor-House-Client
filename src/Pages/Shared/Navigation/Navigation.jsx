@@ -7,7 +7,7 @@ const Navigation = () => {
         <li><Link>Home</Link></li>
         <li><Link>About</Link></li>
         <li><Link>Appointment</Link></li>
-        <li><Link to='/men'>Login</Link></li>
+        <li><Link to='/login'>Login</Link></li>
     </>
 
     return (
