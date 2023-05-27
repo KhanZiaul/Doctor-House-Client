@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import ClientReview from "../ClientReview/ClientReview";
 
 
 const DoctorProfile = () => {
@@ -17,9 +18,10 @@ const DoctorProfile = () => {
                 </TabList>
 
                 <TabPanel>
+                    <h2 className="mt-3 mb-6 font-bold text-xl">About Me</h2>
                     <p>{about_me}</p>
-                    <div>
-                        <div className="space-y-4">
+                    <div className="flex justify-between">
+                        <div className="space-y-4 w-[50%]">
                             <h2 className="mt-3 mb-6 font-bold text-xl">Education</h2>
                             <div>
                                 {
@@ -61,16 +63,47 @@ const DoctorProfile = () => {
                                 }
 
                             </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h2 className="mt-3 mb-6 font-bold text-xl">Awards</h2>
 
+                                {
+                                    awards.map((e, index) => {
+                                        return (
+                                            <div key={index}>
+                                                <h2 className="">. {e}</h2>
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+                            <div>
+                                <h2 className="mt-3 mb-6 font-bold text-xl">Specializations</h2>
+
+                                {
+                                    specializations.map((e, index) => {
+                                        return (
+                                            <div key={index}>
+                                                <h2 className="">. {e}</h2>
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
                         </div>
                     </div>
                 </TabPanel>
 
                 <TabPanel>
-                    <h2>Any content 2</h2>
+                    <h2 className="text-3xl mt-8 font-semibold">{location}</h2>
                 </TabPanel>
                 <TabPanel>
-                    <h2>Any content 2</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                        {
+                            reviews?.map((review, index) => <ClientReview key={index} review={review}></ClientReview>)
+                        }
+                    </div>
                 </TabPanel>
                 <TabPanel>
                     <h2>Any content 2</h2>
